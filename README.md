@@ -1,3 +1,3 @@
-# SwiftUIFrameExtensions
+# SwiftUIUtils
 
-A description of this package.
+Some must-have utilities for SwiftUI.
