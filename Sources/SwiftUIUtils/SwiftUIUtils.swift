@@ -1,3 +1,5 @@
+import SwiftUI
+
 extension View {
     // MARK: Vertical Center
     func vCenter() -> some View {
