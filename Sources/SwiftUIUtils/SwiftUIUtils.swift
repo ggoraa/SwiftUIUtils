@@ -2,32 +2,32 @@ import SwiftUI
 
 extension View {
     // MARK: Vertical Center
-    func vCenter() -> some View {
+    public func vCenter() -> some View {
         self
             .frame(maxHeight: .infinity, alignment: .center)
     }
     // MARK: Vertical Top
-    func vTop() -> some View {
+    public func vTop() -> some View {
         self
             .frame(maxHeight: .infinity, alignment: .top)
     }
     // MARK: Vertical Bottom
-    func vBottom() -> some View {
+    public func vBottom() -> some View {
         self
             .frame(maxHeight: .infinity, alignment: .bottom)
     }
     // MARK: Horizontal Center
-    func hCenter() -> some View {
+    public func hCenter() -> some View {
         self
             .frame(maxWidth: .infinity, alignment: .center)
     }
     // MARK: Horizontal Leading
-    func hLeading() -> some View {
+    public func hLeading() -> some View {
         self
             .frame(maxWidth: .infinity, alignment: .leading)
     }
     // MARK: Horizontal Trailing
-    func hTrailing() -> some View {
+    public func hTrailing() -> some View {
         self
             .frame(maxWidth: .infinity, alignment: .trailing)
     }
